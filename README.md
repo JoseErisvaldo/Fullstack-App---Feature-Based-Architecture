@@ -334,27 +334,27 @@ src/
 - Node.js 20+  
 - Docker (banco e filas)  
 
-### Backend
+# Backend
 
-# Entrar na pasta backend
+### Entrar na pasta backend
 cd backend
 
-# Instalar dependências
+### Instalar dependências
 npm install
 
-# Rodar migrations (TypeORM)
+### Rodar migrations (TypeORM)
 npm run migrate
 
-# Rodar aplicação
+### Rodar aplicação
 npm run start:dev
 
-###  Front-end
+#  Front-end
 
-# Entrar na pasta Front-end
+### Entrar na pasta Front-end
 cd frontend
 
-# Instalar dependências
+### Instalar dependências
 npm install
 
-# Rodar aplicação
+### Rodar aplicação
 npm run dev
