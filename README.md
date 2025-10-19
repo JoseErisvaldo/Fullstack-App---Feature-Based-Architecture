@@ -1,27 +1,20 @@
-Fullstack App - Feature-Based Architecture
-📖 Descrição
+# 🌐 Projeto Fullstack
 
-Este é um projeto Fullstack desenvolvido com NestJS no backend e React no frontend, utilizando TypeScript, Tailwind CSS, shadcn/ui e React Hooks.
+Este é um projeto **Fullstack** desenvolvido com **NestJS** no backend e **React** no frontend, utilizando **TypeScript**, **Tailwind CSS**, **shadcn/ui** e **React Hooks**.
 
-O projeto segue a Feature-Based Architecture, organizada por módulos/funções, garantindo escalabilidade, manutenção facilitada e separação clara de responsabilidades.
-Funcionalidades principais:
+O projeto segue a **Feature-Based Architecture**, organizado por módulos/funções, garantindo **escalabilidade**, **manutenção facilitada** e **separação clara de responsabilidades**.
 
-Autenticação e autorização (JWT, roles)
+## ⚡ Funcionalidades Principais
 
-Gestão de usuários
+- **Autenticação e autorização** (JWT, roles)  
+- **Gestão de usuários**  
+- **Gestão de pedidos**  
+- **Pagamentos**  
+- **Notificações**  
+- **Integração com APIs internas e externas**  
+- **Suporte a testes unitários, de integração e E2E**  
 
-Gestão de pedidos
-
-Pagamentos
-
-Notificações
-
-Integração com APIs internas e externas
-
-Suporte a testes unitários, integração e e2e
-
-🏗 Arquitetura do Projeto
-Backend (NestJS)
+# 🏗 Arquitetura do Projeto Backend (NestJS)
 
 ```
 src/
@@ -161,7 +154,7 @@ src/
     - Autenticação e autorização robusta
     - Testes em todos os níveis
     - Cache, logging e filas de processamento
-- Pode ser combinada com **Clean + Hexagonal + CQRS + Event-Driven**, dependendo da complexidade do sistema.
+- Foi combinado com a arquitetura **Clean + Hexagonal + CQRS + Event-Driven**, devido a complexidade do sistema.
 
 # 🏗️ **Feature-Based Frontend Architecture (React + TypeScript + Tailwind + shadcn)**
 
@@ -354,3 +347,14 @@ npm run migrate
 
 # Rodar aplicação
 npm run start:dev
+
+### Front-end
+```bash
+# Entrar na pasta Front-end
+cd frontend
+
+# Instalar dependências
+npm install
+
+# Rodar aplicação
+npm run dev
