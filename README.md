@@ -335,7 +335,7 @@ src/
 - Docker (banco e filas)  
 
 ### Backend
-```bash
+
 # Entrar na pasta backend
 cd backend
 
@@ -348,8 +348,8 @@ npm run migrate
 # Rodar aplicação
 npm run start:dev
 
-### Front-end
-```bash
+###  Front-end
+
 # Entrar na pasta Front-end
 cd frontend
 
